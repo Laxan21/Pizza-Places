@@ -24,7 +24,7 @@ SELECT *
 FROM pizza_types
 WHERE ingredients LIKE '%Chicken%' 
 ```
-![SQL Query 3](https://user-images.githubusercontent.com/104281046/213899920-1c2b2d50-0db1-4132-9c61-8c638c178431.png)
+![SQL Query 3](https://user-images.githubusercontent.com/104281046/213900118-ef7cbdb0-11de-40d4-ab16-5c02c2b0d289.png)
 ```
 -- dates that had more than 100 pizzas ordered
 SELECT date, COUNT(*)
