@@ -6,7 +6,7 @@ FROM order_details
 WHERE 
   order_details_id <= 10
 ```
-
+![SQL Query 1](https://user-images.githubusercontent.com/104281046/213899813-8754fbfd-7b70-4017-9140-ad1ab0e14751.png)
 
 ```
 SELECT * 
