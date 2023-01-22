@@ -19,7 +19,7 @@ ORDER BY price DESC
 ```
 SELECT *
 FROM pizza_types
-WHERE ingredients LIKE '%Peppers%' */
+WHERE ingredients LIKE '%Peppers%' 
 ```
 
 ```
@@ -50,3 +50,4 @@ GROUP BY
 ORDER BY Sales DESC
 LIMIT 5
 ```
+![Untitled picture1](https://user-images.githubusercontent.com/104281046/213899657-0c27bbd3-1c93-4ec3-beb5-2b2a4828644e.png)
