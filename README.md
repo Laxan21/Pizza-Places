@@ -1,4 +1,4 @@
-# PizzaPlaces
+# Pizza Places
 
 ```
 -- first 10 order details id's
