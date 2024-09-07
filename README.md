@@ -57,7 +57,15 @@ ORDER BY Sales DESC
 LIMIT 5
 ```
 
-
-
-
 ![SQL Query 6](https://user-images.githubusercontent.com/104281046/213899929-783ab1f4-b8ad-4bef-9e3f-c43279e7d3e2.png)
+```
+--- subquery: chose the orders along with their date and time that have an order quantity of more than three
+SELECT *
+FROM orders
+WHERE order_id IN (
+    SELECT order_id
+    FROM order_details
+    WHERE quantity > 3
+    )
+```
+![image](https://github.com/user-attachments/assets/b1eaf68a-27cc-4d5a-86ea-909ef08c2bee)
